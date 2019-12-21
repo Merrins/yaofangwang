@@ -1,0 +1,27 @@
+[
+    {
+        "name": "阿胶",
+        "price": 810.00,
+        "src":"//c1.yaofangwang.net/19/3664/790bc0085b40a1681ece0158179d4e37.jpg_300x300.jpg"
+    }, 
+    {
+        "name": "桂龙药膏",
+        "price": 113.50,
+        "src": "//c1.yaofangwang.net/18/1081/de481a2e5bce65ab10bdd484f0044e91.jpg_300x300.jpg"
+    },
+    {
+        "name": "感冒清热颗粒",
+        "price": 8.50,
+        "src": "//c1.yaofangwang.net/common/upload/medicine/236/236146/4c0e336c-20fb-4a87-a6cf-f683c6930acc3515.jpg_300x300.jpg"
+    },
+    {
+        "name": "万通筋骨贴",
+        "price": 12.12,
+        "src": "//c1.yaofangwang.net/19/2994/5130ad61c1ad7b14cdf044210010a212.jpg_300x300.jpg"
+    },
+    {
+        "name": "祛斑美白霜",
+        "price": 35.00,
+        "src": "//c1.yaofangwang.net/19/3192/e59b1198afc3ca66eb602fb0b267b95a.jpg_300x300.jpg"
+    }
+]

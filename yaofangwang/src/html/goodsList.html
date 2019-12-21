@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="./css/goodsLists/goods.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <script src="./lib/jquery-3.4.1.js"></script>
+    <script src="./lib/goodsLists.js"></script>
+    <script src="./lib/header.js"></script>
+</head>
+
+<body>
+    <script>
+        // header
+        $.get("./lib/header.html",
+            function (data) {
+                // console.log(data);
+                $("body").prepend(data)
+            },
+            "html"
+        );
+    </script>
+    <!-- 头部 -->
+    <div class="goodsBox">
+        <div class="filter">
+            <span class="default" data-type="default">综合 <i></i></span>
+            <span class="price" data-type="price">价格<i></i></span>
+            <!-- <span class="op" data-type="op">在售商家量<i></i></span> -->
+        </div>
+        <ul class="goodsLists"></ul>
+    </div>
+    <div id="page" class="page"></div>
+</body>
+
+</html>

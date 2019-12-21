@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="./css/detailPage/zoom.css">
+    <link rel="stylesheet" href="../html/css/header/header.css">
+    <link rel="stylesheet" href="./css/detailPage/detailPage.css">
+    <script src="./lib/jquery-3.4.1.js"></script>
+    <script src="./lib/Zoom.js"></script>
+    <script src="./lib/dp.js"></script>
+    <script src="../html/lib/header.js"></script>
+</head>
+
+<body>
+    <script>
+        $.get("./lib/header.html",
+            function (data) {
+                $("body").prepend(data)
+            },
+            "html"
+        );    
+    </script>
+    <div class="wrap">
+        <div class="breadcrumb">
+            <a href="">药房网商城</a>
+            <i></i>
+            <a href="">中西药品</a>
+            <i></i>
+            <a href="">风湿骨科</a>
+            <i></i>
+            <a href="">风湿病</a>
+            <i></i>
+            <a href="" target="_blank">桂龙药膏价格</a>
+            <i></i>
+            <a href="">石家庄禾草大药房</a>
+            <i></i>
+            <strong>桂龙药膏</strong>
+        </div>
+        <!-- <div class="maininfo">
+            <div class="in-left">
+            </div>
+            <div class="in-center">
+                <h2>
+                    <i class="icon_otc "></i>
+                    <span>桂龙药膏</span>
+                </h2>
+                <div class="appad">
+                    <p class="AppDown">新客APP下单领20元券</p>
+                    <p class="AppDownTwo">
+                        <a target="_blank" href="">立即去领</a>
+                    </p>
+                </div>
+                <div class="m-info">
+                    <dl class="">
+                        <dt class="l">通用名</dt>
+                        <dd class="w2 l"><strong>桂龙药膏</strong></dd>
+
+                        <dt class="l">商品名/商标</dt>
+                        <dd class="w3 l"></dd>
+
+                        <dt class="l">包装规格</dt>
+                        <dd class="w2 l">200g/瓶</dd>
+
+                        <dt class="l">剂型/型号</dt>
+                        <dd class="w3 l">煎膏剂</dd>
+
+                        <dt class="l">生产企业</dt>
+                        <dd class="w2 l">广西华天宝药业有限公司</dd>
+
+                        <dt class="l">批准文号</dt>
+                        <dd class="w3 l">
+                            <div class="f2">
+                                <img style="height:14px;"
+                                    src="//c1.yaofangwang.net/common/code/cf9d52cf6de66c3c1f102afb42ea1d61c4d160d3a98bb386b0ff2b56dbf7010e_au2.jpg">
+                            </div>
+                        </dd>
+
+                    </dl>
+                </div>
+                <div class="prices">
+                    <dl class="price">
+                        <dt>零售价格</dt>
+                        <dd class="money">￥135.00</dd>
+                    </dl>
+                    <div class="qrcode">
+                        <i class="icon"></i>
+                        手机扫一扫
+                    </div>
+                </div>
+                <dl>
+                    <dt>运    费</dt>
+                    <dd class="w">
+                        <span class="downup">至 广州市</span>
+                        <span>快递：9.00</span>
+                    </dd>
+                </dl>
+                <dl class="s">
+                    <dt>需求数量</dt>
+                    <dd>
+                        <span class="quantity">
+                            <p class="sub bgg">-</p>
+                            <input type="text" class="num" value="1">
+                            <p class="add">+</p>
+                        </span>
+                        <span class="par">
+                            库存：
+                            <label for="" id="reserve">59</label>
+                            瓶
+                        </span>
+                        <span class="wtime">
+                            有效期至：
+                            <label for="">2021.10.01</label>
+                        </span>
+                    </dd>
+                </dl>
+                <div class="mainop">
+                    <a href="login.html" class="ibtn2" id="buy">提交需求</a>
+                    <a href="login.html" class="ibtn1" id="addcart">加入需求单</a>
+                </div>
+            </div>
+            <div class="in-rigth"></div>
+        </div> -->
+    </div>
+</body>
+
+</html>

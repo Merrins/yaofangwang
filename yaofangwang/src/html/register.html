@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="./css/regisster/register.css">
+    <script src="./lib/jquery-3.4.1.js"></script>
+    <script src="./lib/register.js"></script>
+</head>
+<body>
+    <div class="headertop"></div>
+    <div class="header">
+        <div class="container">
+            <a href="" class="name"><img src="./img/header-img/logo.jpg" alt=""></a>
+            <div class="sub">用户登录</div>
+        </div>
+    </div>
+    <div class="r_main">
+        <div class="mwrap">
+            <ul class="tab">
+                <li class="first"><a href="">个体用户</a></li>
+                <li><a href="">供应商入驻</a></li>
+            </ul>
+            <div class="content">
+                <div class="title">注册信息（必填项）</div>
+                <div class="registerform">
+                    <div class="item">
+                        <span class="note">
+                            <label for="">*</label>
+                            用户名：
+                        </span>
+                        <span class="bginput">
+                            <i class="user"></i>
+                            <input type="text" id="name">
+                        </span>
+                        <span class="status">请输入你的用户名，2-18个字符，只能字母、数字、中/下划线</span>
+                    </div>
+                    <div class="item">
+                        <span class="note">
+                            <label for="">*</label>
+                            登录密码：
+                        </span>
+                        <span class="bginput">
+                            <i class="pass"></i>
+                            <input type="password" id="password">
+                        </span>
+                        <span class="status">请输入您的登录密码，6-20位数字和字符组合，两边不能有空符号</span>
+                    </div>
+                    <div class="item">
+                        <span class="note">
+                            <label for="">*</label>
+                            确定密码：
+                        </span>
+                        <span class="bginput">
+                            <i class="pass"></i>
+                            <input type="password" id="repw">
+                        </span>
+                        <span class="status">请输入您的确认密码，6-20位数字和字符组合，必须和密码相等</span>
+                    </div>
+                    <div class="item">
+                        <span class="note">
+                            <label for="">*</label>
+                            手机号：
+                        </span>
+                        <span class="bginput">
+                            <input type="text" id="phone">
+                        </span>
+                        <span class="status">请输入您的手机号码，11位数字</span>
+                    </div>
+                    <div class="item">
+                        <span class="note">
+                            <label for="">*</label>
+                            手机验证码：
+                        </span>
+                        <span class="bginput">
+                            <input type="text" style="width:148px;" id="mscode" maxlength="6">
+                        </span>
+                        <span class="bginput">
+                            <a href="" class="btn9  js-send-msg" >发送验证码</a>
+                            <a href="" class="btn9  js-count" style="display:none">请查收短信（<label class="js-count-num">60</label>秒）</a>
+                        </span>
+                        <span class="status">请输入6位手机验证码</span>
+                    </div>
+                    <div class="item">
+                        <div class="ckdiv">
+                            <div class="ck">
+                                <i class=""></i>
+                            </div>
+                            我同意
+                        </div>
+                        <a href="" class="xy">《药房网商城用户服务协议》</a>
+                    </div>
+                    <div class="item">
+                        <button class="btn2">立即注册</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

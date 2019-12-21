@@ -1,0 +1,145 @@
+[{
+	"name": "中西药品",
+	"such": ["肠胃用药", "感冒药", "心脑血管"],
+	"list": [{
+		"type": "胃肠用药",
+		"suml": ["胃炎", "胃溃疡", "急性肠炎", "十二指肠溃疡", "胆囊炎", "便秘", "消化不良", "痔疮", "腹痛腹泻"]
+	}, {
+		"type": "呼吸系统",
+		"suml": ["支气管炎", "肺热咳嗽", "哮喘", "气管炎", "肺结核"]
+	}, {
+		"type": "心脑血管",
+		"suml": ["高血压", "糖尿病", "冠心病", "高血脂", "心肌炎", "脑血栓", "中风偏瘫", "低血压", "静脉曲张", "动脉硬化"]
+	}, {
+		"type": "风湿骨科",
+		"suml": ["风湿病", "跌打损伤", "关节炎", "颈椎病", "骨质疏松", "痛风", "坐骨神经痛", "腰肌劳损", "肩周炎", "腰椎间盘突出"]
+	}, {
+		"type": "抗肿瘤药",
+		"suml": ["白血病", "肺癌", "胃癌", "肝癌", "肾癌", "乳腺癌", "卵巢癌", "食道癌", "鼻咽癌", "胰腺癌"]
+	}, {
+		"type": "皮肤科药",
+		"suml": ["皮炎", "湿疹", "痤疮", "疥疮", "疱疹", "皮肤过敏", "蚊虫叮咬", "乌发生发", "白癜风", "尖锐湿疣"]
+	}, {
+		"type": "五官科药",
+		"suml": ["眼科", "鼻科", "耳科", "口腔科", "喉科"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["白山市浑江区济恩堂大药房有限公司财政局店", "信丰县信赖药店", "衡阳县新利群药房", "郑州市二七区智仁大药店", "呼和浩特市瑞初大药房有限责任公司"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170523/506def1e-65c9-497a-9e65-f8aaab8fcdaa9794.jpg"
+	}
+}, {
+	"name": "医疗器械",
+	"such": ["血压计", "血糖仪", "创可贴"],
+	"list": [{
+		"type": "家庭常备",
+		"suml": ["棉签", "纱布", "胶布", "绷带", "创口贴", "消毒"]
+	}, {
+		"type": "检测设备",
+		"suml": ["血压检测", "血糖检测", "体温检测", "听诊器", "体重脂肪测量仪", "CFMS血小板聚集功能检测试剂盒", "免疫缺陷病毒抗体", "标准对数视力表灯"]
+	}, {
+		"type": "助行器械",
+		"suml": ["轮椅", "拐杖", "助行器", "接尿器"]
+	}, {
+		"type": "康复理疗",
+		"suml": ["红外理疗", "按摩系列", "治疗仪器", "足浴理疗", "助听器", "疝气治疗", "矫姿", "频谱理疗", "磁场理疗", "鼻腔护理"]
+	}, {
+		"type": "中医器械",
+		"suml": ["针灸", "拔罐", "刮痧"]
+	}, {
+		"type": "供氧器械",
+		"suml": ["制氧设备", "供氧辅助器械", "氧气袋"]
+	}, {
+		"type": "外用贴膏",
+		"suml": ["降温退烧", "风湿骨痛", "妇科外用", "五官外用", "跌打损伤", "晕车贴", "医用敷料"]
+	}, {
+		"type": "隐形眼镜",
+		"suml": ["隐形眼镜", "美瞳彩片", "周边护理"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["白山市浑江区济恩堂大药房有限公司利安花园店", "湖南壹零柒陆药房有限公司", "长春市广霖大药房有限公司晨光国际花园店", "靖宇县复康药店", "德惠市胜利街一通大药房"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170523/e9a48e9e-bda6-4ac6-a380-e2565c1e05391984.jpg"
+	}
+}, {
+	"name": "养生保健",
+	"such": ["滋补药酒", "补钙", "补气养血"],
+	"list": [{
+		"type": "大众养生",
+		"suml": ["滋补药酒", "增强免疫", "补矿物质", "补维生素", "改善睡眠", "调节肠胃", "缓解疲劳", "清咽润喉", "保护视力"]
+	}, {
+		"type": "男性保健",
+		"suml": ["补肾壮阳", "养肝护肝", "补充体力"]
+	}, {
+		"type": "女性保健",
+		"suml": ["美容养颜", "减肥瘦身", "调内分泌", "补气养血", "丰胸美体", "产前产后"]
+	}, {
+		"type": "中老年保健",
+		"suml": ["调节血脂", "调节血压", "调节血糖", "增强免疫", "骨质疏松", "润肠通便", "强身健体", "抑制肿瘤", "改善睡眠", "心脏养护"]
+	}, {
+		"type": "青少年儿童",
+		"suml": ["增强免疫", "发育增高", "补钙排铅", "补维生素", "健脑益智", "改善睡眠"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["安徽华源大药房连锁有限公司国泰路银杏分店", "上海好药师池泾药房", "中江县凯江镇大中太极大药房北门店", "广州更康健康大药房有限公司", "吉林市智然堂大药房有限公司"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170714/7b5f2159-0b03-48a5-8de4-da1ae4f125dd4663.jpg"
+	}
+}, {
+	"name": "计生用品",
+	"such": ["避孕套", "避孕药", "验孕检查"],
+	"list": [{
+		"type": "避孕用品",
+		"suml": ["避孕套", "避孕药"]
+	}, {
+		"type": "检测用品",
+		"suml": ["排卵检测", "验孕检查"]
+	}, {
+		"type": "情趣用品",
+		"suml": ["润滑剂", "男用器具", "女用器具"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["临汾经济开发区国民健康药店", "北京长店迎松堂医药有限责任公司朝阳第三分店", "彰武县四堡子乡寰宇大药房", "富锦市祥云大药房", "五华县转水镇康兴大药房"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170523/0ba58c6f-65bf-4ab7-907a-51979291e1021590.png"
+	}
+}, {
+	"name": "中药饮片",
+	"such": ["西洋参", "三七", "灵芝孢子粉"],
+	"list": [{
+		"type": "名贵中药",
+		"suml": ["冬虫夏草", "高丽参", "红参", "鹿茸", "白参", "灵芝", "燕窝", "雪莲"]
+	}, {
+		"type": "中药材",
+		"suml": ["枸杞", "胖大海", "当归", "天麻", "三七", "红枣", "决明子", "百合", "红景天", "黄芪"]
+	}, {
+		"type": "中药粉末",
+		"suml": ["润滑剂", "男用器具", "女用器具"]
+	}, {
+		"type": "茶",
+		"suml": ["减肥茶", "降压茶", "降糖茶", "苦丁茶", "通便茶", "花茶"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["元氏县泉兴大药房", "威海祥运生医药连锁有限公司十一店", "沂南县福泰祥大药房", "高碑店市厚朴商贸有限公司文明路分公司", "徐州语诺药品零售有限公司"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170523/50804b31-6d21-4328-a411-c4675ff0f2a81330.png"
+	}
+}, {
+	"name": "美容护肤",
+	"such": ["祛痘", "祛斑", "疤痕修复"],
+	"list": [{
+		"type": "药妆",
+		"suml": ["祛痘", "祛斑", "疤痕修复"]
+	}, {
+		"type": "时尚彩妆",
+		"suml": ["补水", "BB霜", "隔离霜", "精华液", "美白霜/乳液", "洁面乳", "防晒霜"]
+	}, {
+		"type": "身体护理",
+		"suml": ["润肤", "止痒", "生发防脱", "香体除臭", "脱毛"]
+	}],
+	"item": {
+		"simg": ["https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-2.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-3.png", "https://c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-4.png"],
+		"move": ["石家庄诚信大药房有限公司", "辽宁益康源大药房朝阳县十二台康民连锁药店", "西安伟信大药房有限公司纺科路店", "济南市历城区灵智堂大药房", "固始和谐家园大药房"],
+		"gimg": "//c1.yaofangwang.net/common/upload/imggg/20170523/e5f7d36d-341c-45fc-be68-092d6a2a44d55503.png"
+	}
+}]

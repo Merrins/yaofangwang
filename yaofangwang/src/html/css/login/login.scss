@@ -1,0 +1,224 @@
+.headertop {
+  width: 100%;
+  height: 41px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  color: #666;
+  line-height: 40px;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  .container {
+    width: 990px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    .name {
+      display: block;
+      float: left;
+      width: 210px;
+      height: 71px;
+      margin: 20px 10px;
+    }
+    .sub {
+      width: 120px;
+      height: 55px;
+      float: left;
+      margin: 30px 10px;
+      padding-left: 15px;
+      border-left: 1px solid #e5e5e5;
+      font-size: 24px;
+      font-family: "\5FAE\8F6F\96C5\9ED1";
+      line-height: 55px;
+      font-weight: bold;
+    }
+  }
+}
+.main_login {
+  width: 100%;
+  height: 540px;
+  background: url(../../img/login/8e98d132e650c29cec447c955d606083.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  .loginBox {
+    position: absolute;
+    top: 56px;
+    right: 160px;
+    width: 370px;
+    min-height: 357px;
+    padding: 20px 40px;
+    background: #fff;
+    z-index: 66;
+    .login_type {
+      width: 100%;
+      height: 54px;
+      .tab-item {
+        width: 50%;
+        height: 50px;
+        line-height: 54px;
+        border-bottom: 4px solid #fff;
+        float: left;
+        font-size: 20px;
+        color: #999;
+        text-align: center;
+      }
+      .ac {
+        color: #16c08e;
+        border-bottom-color: #16c08e;
+      }
+    }
+    .item {
+      height: 50px;
+      span {
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+        &:nth-child(1) {
+          float: left;
+        }
+        &:nth-child(2) {
+          float: right;
+          color: #16c08e;
+        }
+        &:nth-child(3) {
+          float: right;
+        }
+      }
+    }
+    .login_con {
+      width: 100%;
+      .login_item {
+        width: 100%;
+        .inputbox {
+          width: 100%;
+          height: 53px;
+          line-height: 50px;
+          border: 1px solid #ccc;
+          margin-bottom: 16px;
+          i {
+            display: block;
+            width: 18px;
+            height: 25px;
+            margin-top: 16px;
+            margin-right: 10px;
+            margin-left: 5px;
+            float: left;
+            background-image: url(../../img/icons.png);
+          }
+          .pass {
+            background-position: -371px -109px;
+          }
+          .user {
+            background-position: -351px -109px;
+          }
+          input {
+            width: 335px;
+            height: 53px;
+            float: left;
+            border: none;
+            outline: none;
+            color: #333;
+            font-size: 18px;
+            line-height: 53px;
+          }
+        }
+        .inbox {
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          .checkbox {
+            float: left;
+            position: relative;
+            width: 200px;
+            height: 40px;
+            #rememberpw {
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              top: 14px;
+            }
+            label {
+              width: 80px;
+              height: 40px;
+              position: absolute;
+              top: 0;
+              left: 20px;
+            }
+          }
+          .r {
+            float: right;
+            font-size: 14px;
+            &:hover {
+              color: #16c08e;
+            }
+          }
+        }
+        .stu{
+            color: #f00;
+            font-size: 12px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+      }
+      .user {
+        // display: none;
+      }
+      .phone {
+        display: none;
+        input {
+          padding-left: 20px;
+        }
+        #mscode {
+          width: 205px;
+        }
+        .mssend {
+          display: inline-block;
+          width: 122px;
+          height: 50px;
+          line-height: 50px;
+          color: #16c08e;
+          margin: 0 10px;
+          font-size: 16px;
+          text-align: center;
+          opacity: 0.5;
+          &:hover{
+            opacity: 1;
+          }
+        }
+        .stu{
+            color: #f00;
+            font-size: 12px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+      }
+    }
+    .btn {
+      // display: block;
+      width: 100%;
+      height: 50px;
+      background: #16c08e;
+      color: #fff;
+      text-align: center;
+      line-height: 50px;
+      font-size: 22px;
+    }
+    .consent {
+      width: 100%;
+      height: 16px;
+      margin-top: 8px;
+      .xy {
+        width: 16px;
+        height: 16px;
+        font-size: 12px;
+      }
+      .pt {
+        display: inline;
+        color: #16c08e;
+      }
+    }
+  }
+}
+.foot {
+}

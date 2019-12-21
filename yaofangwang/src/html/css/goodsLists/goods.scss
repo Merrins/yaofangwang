@@ -1,0 +1,178 @@
+.goodsBox{
+    margin-top: 20px;
+    width: 950px;
+    height: auto;
+   
+    margin: 20px auto;
+    .filter{
+        width: 100%;
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        background: #f4f4f4;
+        border-radius: 5px;
+        span{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            &:hover{
+                color: green;
+            }
+            i{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: url(../../img/icons.png) no-repeat -121px 1px;
+            }
+        }
+        .on{
+            background: #ccc;
+        }
+    }
+    .goodsLists{
+        width: 100%;
+        min-height: 3980px;
+        li{
+            float: left;
+            margin-right: 20px;
+            width: 214px;
+            height: 367px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: visible;
+            // background: #ff0;
+            margin-top: 10px;
+            border: 1px solid #f5f5f5;
+
+            img{
+                width: calc(100% - 20px);
+                // text-align: center;
+                margin: 0 auto;
+                height: 195px; 
+            }
+            .price{
+                width: calc(100% - 20px);
+                margin: 3px 10px 0;
+                height: 24px;
+                color: #e50000;
+                line-height: 24px;
+                font-size: 18px;
+                
+            }
+            .txt{
+                width: calc(100% - 20px);
+                margin: 3px 10px 0;
+                height: 20px;
+                line-height: 20px;
+                overflow: hidden;
+                color: #333;
+            }
+            .str{
+                width: calc(100% - 20px);
+                margin: 2px 10px 0;
+                white-space: nowrap;
+                height: 15px;
+                line-height: 15px;
+                color: #999;
+                overflow: hidden;
+            }
+            .ph{
+                width: calc(100% - 20px);
+                margin: 2px 10px 0;
+                height: 15px;
+                color: #999;
+                img{
+                    vertical-align: middle;
+                    width: 120px;
+                    height: 15px;
+                    display: inline-block;
+                }
+            }
+            .op{
+                line-height: 28px;
+                height: 28px;
+                position: relative;
+                span{
+                    display: inline-block;
+                    width: 212px;
+                    border-right: 1px solid #fff;
+                    text-align: left;
+                    padding-left: 10px;
+                    b{
+                        margin: 0 2px;
+                        color: #0cb95f;
+                        font-weight: normal;
+                    }
+                }
+                a{
+                    width: 80px;
+                    height: 28px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    line-height: 28px;
+                    text-align: center;
+                    background: #f00;
+                    color: #fff;
+                    display: none;
+                }
+            }
+            .factory{
+                width: calc(100% - 20px);
+                height: auto;
+                padding: 0 10px;
+                display: none;
+                margin-top: 5px;
+            }
+
+        }
+        .hover{
+            border: 1px solid #ccc;
+        }
+    }
+   
+}
+.page {
+    width: 1130px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Verdana;
+    padding: 10px 16px;
+    a{
+        display: inline-block;
+        height: 20px;
+        padding: 0 7px;
+        border: #CCC solid 1px;
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: 5px;
+        background: #FFF;
+        &:hover{
+            background: #09F;
+            color: #FFF;  
+        }
+        &:active{
+            opacity: .8
+        }
+    }
+    .active {
+        background: #CCC
+    }
+}
+body{
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: Arial,"宋体",Tahoma,Verdana,sans-serif,simsun;
+}
+.nav{
+    background: #0cb95f;
+    li{
+        color: #fff;
+        &:hover{
+            color: #fff !important;
+        }
+    }
+}

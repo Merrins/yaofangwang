@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>药房网商城</title>
+    <link rel="stylesheet" href="./html/css/common/common.css">
+    <link rel="stylesheet" href="./html/css/banner/yf_slider.css">
+    <link rel="stylesheet" href="./html/css/index/index.css">
+    <script src="./html/lib/jquery-3.4.1.js"></script>
+    <script src="./html/lib/yf-slider.js"></script>
+    <script src="./html/lib/menu.js"></script>
+    <script src="./html/lib/floor.js"></script>
+    <script src="./html/lib/index.js"></script>
+    <script src="./html/lib/header.js"></script>
+</head>
+
+<body>
+    <div class="ha"><a href=""><img src="./html/img/header-img/4c6bfeceaa6bb7523c0c7bf45b875543.jpg" alt=""></a></div>
+    <div class="header_top">
+        <div class="container">
+            <ul class="left">
+                <li class="n">
+                    <i class="icons fav"></i>
+                    <a href="">收藏药房网商城</a>
+                    <s></s>
+                </li>
+                <li class="wx">
+                    <i class="icons wx"></i>
+                    <a href="">微信查价</a>
+                    <s></s>
+                    <div class="wxbig">
+                        <div class="pic"></div>
+                        <div class="text">微信扫描二维码，查药比价更方便！</div>
+                    </div>
+                </li>
+                <li class="app">
+                    <i class="icons app"></i>
+                    <a href="">手机APP</a>
+                    <s></s>
+                    <div class="appbig">
+                        <div class="pic"></div>
+                        <div class="text">药房网商城App，注册就送20元</div>
+                    </div>
+                </li>
+                <li class="xcx">
+                    <i class="icons wc"></i>
+                    <a href="">小程序查价</a>
+                    <div class="xcxbig">
+                        <div class="pic"></div>
+                        <div class="text">微信扫描二维码，查药比价更方便！</div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="right">
+                <li class="entry_btn">
+                    <a href="">商家入驻</a>
+                </li>
+                <li class="daohang">
+                    <a href="" class="disa">网站导航</a>
+                    <i class="icons dorpdown"></i>
+                    <div class="line"></div>
+                    <div class="other">
+                        <div class="item">
+                            <div class="h1">健康咨询</div>
+                            <a href="">医药资讯</a>
+                            <a href="">疾病知识</a>
+                            <a href="">用药指导</a>
+                            <a href="">健康问答</a>
+                        </div>
+                        <div class="item">
+                            <div class="h1">特色服务</div>
+                            <a href="">健康专题</a>
+
+                            <a href="">医院大全</a>
+                            <a href="">药房联盟</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="n"><a href="" class="disa" rel="nofollow">客服中心</a></li>
+                <li id="nav_postion"><a href="" class="disa">收藏夹</a><s></s></li>
+                <li class="person">
+                    <a href="" class="fl disa" rel="nofollow">个人中心</a>
+                    <i class="icons dorpdown"></i>
+                    <s></s>
+                    <div class="line"></div>
+                    <div class="menu_list" style="display: none;">
+                        <a href="" rel="nofollow">需求管理</a>
+                        <a href="" rel="nofollow">地址管理</a>
+                        <a href="" rel="nofollow">我的咨询</a>
+                        <a href="" rel="nofollow">我的问答</a>
+                        <a href="" rel="nofollow">最近浏览</a>
+                    </div>
+                </li>
+                <li class="carts">
+                    <i class="icons cart"></i>
+                    <a href="./html/cart.html" class="hi nline disa" rel="nofollow">需求单（<label id="CartNum">0</label>）</a>
+                    <div class="line"></div>
+                    <div class="cart_box" style="display: none;">您的购物车目前没有任何商品，建议您 <p class="green">[登录]</p> 查看</div>
+                </li>
+                <li class="fix">
+                    <a href="./html/login.html" rel="nofollow">登录</a> /
+                    <a href="./html/register.html" rel="nofollow">免费注册</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./html/img/header-img/logo.jpg" alt=""></a>
+            </div>
+            <div class="search">
+                <div class="search_input">
+                    <ul class="opt_list">
+                        <li class="current"><a href="">商品</a><i></i></li>
+                        <li><a href="" class="cur">商家</a><i></i></li>
+                        <li><a href="">厂家</a><i></i></li>
+                        <li><a href="">医院</a><i></i></li>
+                    </ul>
+                    <input type="text" placeholder="请输入批准文号、通用名、商品名、症状" id="keyword">
+                    <button type="button" class="submit" id="btn_submit">搜索</button>
+                </div>
+                <ul id="hot_search" class="hot_search clearfix">
+                    <li class="noborder highlight"><a href="">补血</a></li>
+                    <li><a href="">999</a></li>
+                    <li><a href="">片仔癀</a></li>
+                    <li><a href="">妈富隆</a></li>
+                    <li class="highlight"><a href="">阿胶</a></li>
+                    <li><a href="">金戈</a></li>
+                    <li><a href="">汤臣倍健</a></li>
+                </ul>
+            </div>
+            <div class="promise">
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="container">
+            <div class="tl">
+                <h2 class="t2">全部商品分类</h2>
+                <!-- <div class="menu">
+                    <ul class="left">
+                        <li>
+                            <i></i>
+                            <p>中西药品</p>
+                            <div class="">
+                                <span>肠胃用药</span>
+                                <span>感冒药</span>
+                                <span>心脑血管</span>
+                            </div>
+
+                        </li>
+                    </ul>
+                    <div class="right">
+                        <div class="content">
+                            <ul class="sitems">
+                                <li>
+                                    <h3 class="type">肠胃用药</h3>
+                                    <div>
+                                        <a href="">胃炎</a>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            <div class="rmpp">
+                                <ul class="pz">
+                                    <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/nav-zxyp-logo-1.png"
+                                            alt=""></li>
+                                </ul>
+                                <img class="bi"
+                                    src="//c1.yaofangwang.net/common/upload/imggg/20170523/506def1e-65c9-497a-9e65-f8aaab8fcdaa9794.jpg"
+                                    alt="">
+                                <div class="hg">
+                                    <h6 class="name">推荐商家</h6>
+                                    <ul class="hg-list">
+                                        <li>白山市浑江区济恩堂大药房有限公司财政局店</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content"></div>
+                        <div class="content"></div>
+                    </div>
+                </div> -->
+            </div>
+            <ul class="mainnav">
+                <li class="home">首页</li>
+                <li>药房超市</li>
+                <li>药房联盟</li>
+                <li>医院大全</li>
+                <li>医药资讯</li>
+                <li>用药问答</li>
+                <li class="last">
+                    <h4>商家入驻</h4>
+                    <a href="" id="header-img"><img
+                            src="https://c1.yaofangwang.net/common/upload/imggg/20180718/6b1f8f43-8b9a-43ff-94d2-67233a57bdd03344.png"
+                            alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner"></div>
+    <div class="main">
+        <!-- <div class="floorBox">
+            <div class="floor">
+                <div class="title">
+                    <span class="layer">
+                        <i class="l">1</i>
+                        <i class="f">F</i>
+                    </span>
+                    <h2>中西药品</h2>
+                    <div class="snav">
+                        <a href="">神经系统1</a>
+                        <a href="">神经系统2</a>
+                        <a href="">神经系统3</a>
+                        <a href="">神经系统4</a>
+                        <a href="">神经系统5</a>
+                        <a href="">神经系统6</a>
+                        <a href="">神经系统7</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="cleft">
+                        <div class="slide2">
+                            <img src="//c1.yaofangwang.net//18/1674/d00e1ac62cae5eda3d30bd7cfb430484.jpg" alt="">
+                        </div>
+                        <ul class="pp">
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+                            <li><img src="//c1.yaofangwang.net/common/images/www_gg/index/zxyp-logo-1.png" alt=""></li>
+
+                        </ul>
+                    </div>
+                    <div class="cright">
+                        <ul class="clist">
+                            <li class="">
+                                <img class="photo" src="//c1.yaofangwang.net/common/upload/medicine/518/518346/7a2c7f7b-5ea0-4e0f-864a-e59882ba557d9459.jpg_300x300.jpg" alt="">
+                                <a href="" class="txt">氧化锌升华硫软膏</a>
+                                <p class="st">20g/盒</p>
+                                <p class="price">￥128.30</p class="">
+                                <div class="info">用于痤疮、酒渣鼻、脂溢性皮炎。</div>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    <div class="foot"></div>
+    <div class="slideRightBox">
+        <div class="i i1">
+            <span class="t">联系客服</span>
+            <div class="contact">
+                <p>在线客服：</p>
+
+                <img id="closeQQ" alt="" src="//c1.yaofangwang.net/common/images/qq-tel.png">
+            </div>
+        </div>
+        <div class="i i2">
+            <a href="" class="t">购物清单</a>
+        </div>
+        <div class="i i3">
+            <a href="" class="t">同店购买</a>
+        </div>
+        <div class="i i4">
+            <span class="t">关注我们</span>
+
+            <div class="gzwm">
+                <div class="wxsbg1"></div>
+                <div>微信扫一扫<br>查药更方便</div>
+                <div class="wxsbg"></div>
+                <a href="" class="gzwb">关注微博</a>
+            </div>
+        </div>
+        <div class="i i5">
+            <span class="t">手机APP</span>
+            <div class="app">
+                <div class="appbg"></div>
+                <div>手机查药比价</div>
+                <a href="" class="smxz">扫码下载</a>
+            </div>
+        </div>
+        <div class="i i6">
+            <a class="t" href="" >意见反馈</a>
+        </div>
+        <div class="i i7 last">
+            <a class="t" href="">返回顶层</a>
+        </div>
+    </div>
+    <ul class="floormove">
+        <li>
+            <span>中西药品</span>
+        </li>
+        <li>
+            <span>养生保健</span>
+        </li>
+        <li>
+            <span>医疗器械</span>
+        </li>
+        <li>
+            <span>计生用品</span>
+        </li>
+        <li>
+            <span>中药饮片</span>
+        </li>
+        <li>
+            <span>美容护肤</span>
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+.headertop {
+  width: 100%;
+  height: 41px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  color: #666;
+  line-height: 40px;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  .container {
+    width: 990px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    .name {
+      display: block;
+      float: left;
+      width: 210px;
+      height: 71px;
+      margin: 20px 10px;
+    }
+    .sub {
+      width: 120px;
+      height: 55px;
+      float: left;
+      margin: 30px 10px;
+      padding-left: 15px;
+      border-left: 1px solid #e5e5e5;
+      font-size: 24px;
+      font-family: "\5FAE\8F6F\96C5\9ED1";
+      line-height: 55px;
+      font-weight: bold;
+    }
+  }
+}
+.r_main {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  background: #f4f4f4;
+  padding-bottom: 50px;
+}
+.mwrap {
+  width: 990px;
+  margin: 30px auto;
+  background: #fff;
+  .tab {
+    background: #f4f4f4;
+    height: 52px;
+    border-left: 1px solid #e5e5e5;
+    li {
+      float: left;
+      width: 180px;
+      height: 50px;
+      border-right: 1px solid #e5e5e5;
+      text-align: center;
+      line-height: 49px;
+      a {
+        display: block;
+        border-top: 1px solid #e5e5e5;
+        font-size: 18px;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+        line-height: 49px;
+      }
+    }
+    .first {
+      border-top: 3px solid #16c08e;
+      a {
+        color: #16c08e;
+        background: #fff;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    // margin-top: 10px;
+    .title {
+      padding-left: 45px;
+      height: 40px;
+      line-height: 40px;
+      border-top: 1px dotted #ccc;
+      background: #f9f9f9;
+      text-align: left;
+    }
+    .registerform {
+      width: 100%;
+      .item {
+        padding: 10px 0;
+        height: 40px;
+        color: #666;
+        font-size: 14px;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+        line-height: 40px;
+        .note {
+          float: left;
+          display: block;
+          margin-right: 10px;
+          width: 170px;
+          height: 40px;
+          color: #999;
+          text-align: right;
+          font-size: 14px;
+          font-family: "\5FAE\8F6F\96C5\9ED1";
+          line-height: 40px;
+          label {
+            margin-right: 5px;
+            color: #e50000;
+            vertical-align: middle;
+            font-size: 16px;
+            font-family: serif;
+          }
+        }
+        .bginput {
+          position: relative;
+          float: left;
+          display: block;
+          i {
+            position: absolute;
+            top: 9px;
+            left: 10px;
+            display: block;
+            width: 18px;
+            height: 25px;
+            background-image: url(../../img/icons.png);
+          }
+          .user {
+            background-position: -391px -109px;
+          }
+          .pass {
+            background-position: -410px -109px;
+          }
+          input {
+            padding: 0 20px 0 35px;
+            width: 265px;
+            height: 40px;
+            border: 1px solid #e5e5e5;
+            color: #333;
+            font-size: 14px;
+            font-family: "\5FAE\8F6F\96C5\9ED1";
+            line-height: 40px;
+          }
+          .btn9 {
+            display: block;
+            color: #999;
+            background: #f4f4f4;
+            text-align: center;
+            border: 1px solid #e5e5e5;
+            padding: 0 20px;
+            margin-left: 5px;
+            float: left;
+          }
+        }
+        .status {
+          float: left;
+          margin-left: 5px;
+          padding: 0 10px 0 25px;
+          font-size: 12px;
+          font-family: Arial, "宋体";
+          color: #f00;
+          display: none;
+        }
+        .false {
+          display: block;
+        }
+        .ckdiv {
+          position: relative;
+          float: left;
+          padding-left: 20px;
+          margin-left:176px;
+          cursor: pointer;
+          .ck {
+            top: 12px;
+            position: absolute;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            background-position: -41px -25px;
+            vertical-align: middle;
+            background-image: url(../../img/icons.png);
+            .checked {
+              display: block;
+              width: 16px;
+              height: 16px;
+              background-position: -60px -25px;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background-image: url(../../img/icons.png);
+            }
+          }
+        }
+        .xy {
+          color: #0cb95f;
+        }
+        .btn2{
+            width: 320px;
+            height: 48px;
+            margin-left: 170px;
+            background: #0cb95f;
+            color: #fff;
+            outline: none;
+            border: none;
+            font-size: 18px;
+        }
+        #phone,#mscode{
+            padding: 0 45px 0 10px;
+        }
+      }
+    }
+  }
+}
